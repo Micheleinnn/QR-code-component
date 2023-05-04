@@ -1,0 +1,71 @@
+:root {
+    background-color: hsl(212, 45%, 89%);
+    height: 100%;
+    width: 100%;
+
+}
+
+.layout {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Pravidla pro desktop */
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 375px) {
+}
+
+.container {
+    height: 60vh;
+    width: 320px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16px;
+    border-radius: 4%;
+}
+
+.qrCode {
+    margin-top: 17px;
+    border-radius: 4%;
+    display: flex;
+    width: 285px;
+    background-color: white;
+    height: 285px;
+    flex-direction: column;
+}
+
+.qrCodeImg {
+    border-radius: 4%;
+}
+
+.mainText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-size: 23px;
+    margin-top: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold !important;
+}
+
+.text {
+    margin-left: 5px;
+    display: flex;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 15px;
+    color: hsl(212, 45%, 89%);
+}
+
+
+
+
